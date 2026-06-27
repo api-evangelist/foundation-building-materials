@@ -77,11 +77,11 @@ common:
     url: https://www.myfbm.com/login
     name: MyFBM Sign In
     description: Authenticated entry point for contractor accounts.
-  - type: SignUp
+  - type: Signup
     url: https://www.myfbm.com/register
     name: Open a Commercial Credit Account
     description: New-customer registration / commercial credit application flow.
-  - type: Quickstart
+  - type: GettingStarted
     url: https://www.myfbm.com/track-guest-order
     name: Track a Guest Order
     description: Order-status lookup for buyers without an authenticated account.
