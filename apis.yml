@@ -41,6 +41,8 @@ access: None
 apis: []
 
 common:
+  - type: DomainSecurity
+    url: security/foundation-building-materials-domain-security.yml
   - type: Portal
     url: https://www.myfbm.com
     name: MyFBM Customer Portal
