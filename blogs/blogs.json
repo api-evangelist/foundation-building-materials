@@ -2,13 +2,14 @@
   "repo": "foundation-building-materials",
   "feeds": [
     {
-      "source": "https://www.myfbm.com/news",
-      "feed_url": "",
-      "saved": 1,
-      "method": "agent-scrape"
+      "source": "https://www.myfbm.com",
+      "feed_url": "https://www.myfbm.com",
+      "title": "",
+      "saved": 0,
+      "method": "none"
     }
   ],
   "post_count": 3,
-  "fetched": "2026-06-27T12:42:46Z",
+  "fetched": "2026-07-11T11:50:51Z",
   "agent_pulled": "2026-06-27"
 }
