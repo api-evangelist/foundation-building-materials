@@ -15,6 +15,17 @@ description: >-
   GitHub organization — its digital surface is limited to buyer-facing
   e-commerce (search, ordering, order tracking, quick-order PDF/photo ingestion
   via "Quick Order Entry") rather than a developer/integration product.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 image: https://www.myfbm.com/favicon.ico
 url: https://raw.githubusercontent.com/api-evangelist/foundation-building-materials/main/apis.yml
 humanURL: https://www.myfbm.com
