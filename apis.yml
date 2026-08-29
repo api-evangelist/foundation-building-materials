@@ -15,6 +15,17 @@ description: >-
   GitHub organization — its digital surface is limited to buyer-facing
   e-commerce (search, ordering, order tracking, quick-order PDF/photo ingestion
   via "Quick Order Entry") rather than a developer/integration product.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
