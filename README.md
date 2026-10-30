@@ -64,66 +64,84 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-API Evangelist network profile for **Foundation Building Materials (FBM)** — a
-leading North American distributor of interior building products (drywall,
-steel framing, acoustic ceilings, insulation, and complementary construction
-supplies), headquartered in Santa Ana, California. FBM serves commercial and
-residential contractors across the United States and Canada through a national
-branch network and the unified MyFBM ordering portal.
+Foundation Building Materials (FBM) is a leading North American distributor of interior building products — drywall, steel framing, acoustic ceilings, insulation, and complementary construction supplies — serving commercial and residential contractors across the United States and Canada. Headquartered in Santa Ana, California, FBM operates a national branch network and a unified customer ordering platform at myfbm.com (consolidating the legacy fbmsales.com, MyRIS, and MyFBM portals) along with iOS/Android mobile apps for contractors. In April 2025, FBM acquired KCG/Rew Materials, adding 800 employees and 45 distribution branches across 23 states. In August 2025, Lowe's announced an agreement to acquire FBM. Brand families operating under FBM include FBM, RIS, Pacific Source, and Unified Door. FBM does not currently expose any public developer APIs, OpenAPI documentation, partner integration program, SDK, or GitHub organization — its digital surface is limited to buyer-facing e-commerce (search, ordering, order tracking, quick-order PDF/photo ingestion via "Quick Order Entry") rather than a developer/integration product.
 
-- Canonical URL: <https://www.myfbm.com>
-- Legacy URL (redirects): <https://www.fbmsales.com>
-- Network registry: [api-evangelist/network](https://github.com/api-evangelist/network)
+**Areas:** Building Materials · Distribution · Construction · Drywall · Steel Framing · Acoustic Ceilings · Insulation · Wholesale · B2B Commerce · Contractor Supply · North America
 
-## At a glance
+## Foundation Building Materials on APIs.io
 
-- **Brand families:** FBM, RIS, Pacific Source, Unified Door
-- **Customer portal:** [MyFBM](https://www.myfbm.com) — web + iOS / Android, ~5,099 SKUs catalogued, inventory visibility, per-unit + bulk (MSF/MLF) pricing
-- **Recent moves:**
-  - **Apr 2025** — Acquired KCG/Rew Materials, adding 800 employees and 45 distribution branches across 23 states ([news](https://www.myfbm.com/news)).
-  - **Aug 2025** — Lowe's announced an agreement to acquire FBM ([news](https://www.myfbm.com/news)).
-  - **Apr 2026** — Launched **Quick Order Entry (QOE)** — converts PDFs, photos, or handwritten POs into confirmed orders within 24 hours.
+Everything profiled for Foundation Building Materials is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/foundation-building-materials/](https://apis.io/providers/foundation-building-materials/)** — or go straight to one of the APIs or properties below.
 
-## Public API surface
+### Published properties
 
-**None.** FBM does not currently publish:
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-- A developer portal or API reference
-- OpenAPI / AsyncAPI / JSON Schema specifications
-- An SDK, CLI, or public integration program
-- A GitHub organization
-- A documented EDI / punchout / partner-API offering
+#### Security (1)
 
-FBM's external digital surface is buyer-facing only — search, ordering, order
-tracking, account management — and is not exposed as a programmable API.
-The closest analogue to an order-ingestion API is the human-in-the-loop
-**Quick Order Entry** service, which ingests PDFs/photos of purchase orders
-and returns confirmed orders within 24 hours via FBM operations staff.
+Authentication, trust centre, and vulnerability disclosure.
 
-This repository therefore catalogues FBM's **business surface** rather than a
-programmable one, so the API Evangelist network can place it relative to
-peer distributors and watch for any future digital/API-product moves
-(especially in the context of the pending Lowe's acquisition).
+- [Foundation Building Materials Domain Security](https://apis.io/security/foundation-building-materials/foundation-building-materials-domain-security/)
 
-## Artifacts in this repo
+## Where to find this API
 
-| File | Purpose |
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.myfbm.com/)
+- [Documentation](https://www.myfbm.com)
+- [Getting started](https://www.myfbm.com/track-guest-order)
+- [Support](https://www.myfbm.com/feedback)
+- [Blog](https://www.myfbm.com/news)
+- [Compliance](https://www.myfbm.com/prop-65)
+
+## API Evangelist rating
+
+**Kin Score 10.0** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
 |---|---|
-| [`apis.yml`](./apis.yml) | apis.json/0.20 index — company-level properties, customer-portal links, news, FAQ, contact, careers, social, compliance. No `apis:` entries (no public APIs to document). |
-| `README.md` | This file. |
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 26.2 |
+| Access clarity | 6.6 |
 
-No `openapi/`, `asyncapi/`, `json-schema/`, `capabilities/`, `rules/`,
-`examples/`, or `vocabulary/` directories are present — per pipeline policy,
-artifact folders are only created when there is real content to back them.
+**Agent readiness 0.0** — human-only
 
-## Related profiles
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
 
-FBM sits in the broader building-products distribution segment alongside
-companies like Beacon Building Products, GMS Inc., ABC Supply, US LBM, and
-SRS Distribution. The pending Lowe's acquisition will be tracked here as it
-closes and any post-merger digital-integration program emerges.
+**Regulatory alignment 5.9** — Horizontal (data, software, accessibility, platform)
 
----
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/foundation-building-materials/](https://apis.io/providers/foundation-building-materials/).
 
-Maintained by [Kin Lane](https://apievangelist.com) as part of the
-[API Evangelist Network](https://github.com/api-evangelist/network).
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Foundation Building Materials: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/foundation-building-materials/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
